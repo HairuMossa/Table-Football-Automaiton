@@ -1,0 +1,71 @@
+Functional Requirements:
+
+1. Goal Detection System:
+
+The system must have a goal detection mechanism to identify when a goal is scored by any team.
+It should accurately track which team scores the goal.
+
+2. Score Tracking:
+
+The system should update the scores in real-time on a website.
+Scores should be maintained for each team, and the website should display the team names along with their scores.
+
+3. Website Development:
+
+Develop a basic website to display the scores.
+The website should support up to 100 teams.
+Provide a user-friendly interface to view scores.
+
+4. Historical Data Storage:
+
+The system must store daily scores for each team.
+It should keep the historical data for a maximum of 1 month.
+
+5. Round Timing:
+
+Implement a timer system for rounds.
+Each round should last for 2.5 minutes.
+The system should indicate the time left or elapsed on a strip of smart LEDs on the table.
+
+6. Match Structure:
+
+Each match consists of two rounds.
+The system should manage match transitions and record scores accordingly.
+
+
+Non-Functional Requirements:
+
+1. Accuracy and Reliability:
+
+The goal detection system should be highly accurate to prevent scoring errors.
+The system must be reliable to ensure scores are not lost.
+2. Scalability:
+
+The website should be scalable to handle data for up to 24 teams.
+3. User-Friendly Interface:
+
+The website should have an intuitive and user-friendly design for easy access to score information.
+4. Data Security:
+
+Ensure that the historical data stored on the website is secure and cannot be tampered with.
+5. Responsive Design:
+
+The website should have a responsive design to accommodate different screen sizes and devices.
+6. LED Indicator System:
+
+The LED strip on the table should have a clear and understandable display of the time remaining or elapsed in a round.
+7. Performance:
+
+The system should be capable of handling real-time updates without significant delays.
+8. Maintenance and Support:
+
+Plan for ongoing maintenance and support to address any issues or updates required for the system.
+9. System Architecture:
+
+Choose the appropriate hardware and software architecture to support the functionality and scalability requirements.
+10. User Training:
+
+Provide user training for individuals responsible for operating the system.
+11. Backup and Recovery:
+
+Implement backup and recovery mechanisms to prevent data loss in case of system failures.
